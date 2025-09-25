@@ -1,6 +1,6 @@
-# 极简番茄钟应用
+# 极简番茄钟应用 / Minimal Pomodoro Timer
 
-这个文件夹包含了番茄钟应用的最终版本的所有源代码和资源文件。
+这是一个极简的Windows番茄钟应用，内存占用不到2MB。
 
 ## 文件说明
 
@@ -23,7 +23,7 @@ gcc -mwindows -O2 -s -D_UNICODE -DUNICODE -o "Little Pomodoro.exe" pomodoro_simp
 ## 核心功能
 
 - 极简
-- 内存占用不到2m
+- 内存占用不到2MB
 - 直接使用Windows系统的通知做提醒
 
 ## 操作说明
