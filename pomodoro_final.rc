@@ -1,0 +1,36 @@
+// 应用程序资源文件
+#include <windows.h>
+
+// 主应用程序图标
+#define IDI_MAIN_ICON 101
+IDI_MAIN_ICON ICON "resource\\alarm.ico"
+
+// 版本信息
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Little Tips"
+            VALUE "FileDescription",  "Little Pomodoro"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "LittlePomodoro"
+            VALUE "LegalCopyright",   "Copyright (C) 2024"
+            VALUE "OriginalFilename", "LittlePomodoro.exe"
+            VALUE "ProductName",      "Little Pomodoro"
+            VALUE "ProductVersion",   "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
